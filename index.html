@@ -9,22 +9,29 @@
 </head>
 <body>
 
-<div class="container1">
-    <div class="product">
-        <h1 class="product-title">GRANDE MINEIRO</h1>
-        <img id="product-image" src="imagens\logo.png" alt="product-image">
-        <h3 class="destaques">Destaques</h3>
-        <h3 class="servicos">Serviços</h3>
-        <h3 class="sobre">Sobre</h3>
-        <h3 class="clientes">Clientes</h3>
-        <h3 class="contatos">Contatos</h3>
+    <div class="container1">
+        <div class="product">
+            <h2 class="product-title">GRANDE MINEIRO</h2>
+            <nav class="navigation">
+                <ul>
+                    <li class="destaques"><a href="#destaques">Destaques</a></li>
+                    <li class="servicos"><a href="#servicos">Serviços</a></li>
+                    <li class="sobre"><a href="#sobre">Sobre</a></li>
+                    <li class="clientes"><a href="#clientes">Clientes</a></li>
+                    <li class="contato"><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <img id="product-image" src="imagens\logo.png" alt="product-image">
+        </div>
+    </div>
+        
         <button class="animated-button">
             <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
               ></path>
             </svg>
-            <span class="text">fale com a nossa equipe</span>
+            <span class="text">Entrar/cadastrar</span>
             <span class="circle"></span>
             <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -38,11 +45,16 @@
 
 
      <div class="banner">
+
         <h1 class="titulo_banner">GRANDE MINEIRO.</h1>
-        <h2 class="sub_titulo_banner">A melhor e mais completa plataforma de Supermecados online</h2>
+        <h2 class="sub_titulo_banner">  A melhor e mais completa plataforma de Supermecados online</h2>
         <h3 class="sub_titulo_banner2">Conectando Supermercados, Transformando Experiências</h3>
+        <p class="texto_banner"> Faça suas compras de supermercado com apenas alguns toques no seu celular.</p>
         <img class="celular_modelo" src="imagens/modelo celular.png" alt="modelo">
-        <button class="botao_banner">Saiba mais</button>
+        <div>
+            <button class="botao_banner">Saiba mais</button>
+        </div>
+        
     </div>
 
 
@@ -50,14 +62,35 @@
 
     <section id="destaques">
         <div class="container2">
-            <h2 class="titulo_destaques">Destaques</h2>
-            <p class="texto_destaques1">Como uma empresa de soluções tecnológicas inovadoras, buscamos digitalizar e transformar os negócios do varejo por meio da implementação de tecnologias disruptivas. Nosso aplicativo atua como um marketplace dedicado aos supermercados, oferecendo uma plataforma onde os proprietários desses estabelecimentos podem cadastrar suas lojas e comercializar seus produtos de forma eficiente e acessível.</p>
-            
-            <p class="texto_destaques2">Já contamos com um número impressionante de <strong>supermercados cadastrados</strong> em nossa plataforma, garantindo uma ampla variedade de produtos para os consumidores.</p>
-            
-            <p class="texto_destaques3">Além disso, temos uma base crescente de <strong>clientes ativos</strong>, que desfrutam da conveniência e personalização que oferecemos em suas experiências de compra.</p>
+            <div class="texto-destaques">
+                <h2 class="titulo_destaques">Destaques</h2>
+               
+                <p class="texto_destaques1">Como uma empresa de soluções tecnológicas inovadoras, buscamos digitalizar e transformar os negócios do varejo por meio da implementação de tecnologias disruptivas. Nosso aplicativo atua como um marketplace dedicado aos supermercados, oferecendo uma plataforma onde os proprietários desses estabelecimentos podem cadastrar suas lojas e comercializar seus produtos de forma eficiente e acessível.</p>
+                
+                
+
+                <div class="card">
+                    <div class="card-content">  
+                      <p class="card-para">Já contamos com um número impressionante de <strong>supermercados cadastrados</strong> em nossa plataforma, garantindo uma ampla variedade de produtos para os consumidores.</p>
+                    </div>
+                  </div>
+
+
+                <div class="card2">
+                <div class="card-content2">
+                    
+                    </p><p class="card-para2">Além disso, temos uma base crescente de <strong>clientes ativos</strong>, que desfrutam da conveniência e personalização que oferecemos em suas experiências de compra.</p>
+                </div>
+                </div>
+            </div>
+
+
+            <div class="imagem-destaques">
+                <img class="tela_destaques" src="/imagens/tela.png" alt="tela">
+            </div>
         </div>
     </section>
+    
 
 
 
@@ -65,7 +98,10 @@
     <section id="servicos">
         <div class="container">
             <h2 class="titulo_servicos">Nossos Serviços</h2>
-            
+            <div class="card_servicos">Solução de Marketplace</div>
+            <div class="card_servicos">Otimização de Processos</div>
+            <div class="card_servicos">Integração Físico-Digital</div>
+            <div class="card_servicos">Inteligencia Artificial e Chatbot</div>
             <div class="servico1">
                 <h3>Solução de Marketplace para Supermercados</h3>
                 <p>Nossa solução de marketplace permite que os supermercados cadastrem suas lojas e comercializem seus produtos em uma plataforma digital. Isso amplia a visibilidade dos produtos e facilita o alcance de novos clientes, resultando em aumento das vendas.</p>
@@ -80,6 +116,12 @@
                 <h3>Integração Físico-Digital</h3>
                 <p>Nossa plataforma promove a convergência entre o mundo físico e digital, oferecendo uma experiência de compra integrada e conveniente para os consumidores. Isso cria uma relação mais próxima entre supermercados e clientes, aumentando a fidelização.</p>
             </div>
+
+            <div class="servico4">
+                <h3>Inteligência Artificial e Chatbot</h3>
+                <p>Utilizamos inteligência artificial e chatbots para aprimorar a experiência do usuário em nosso aplicativo. Nossos sistemas de IA são capazes de fornecer recomendações personalizadas com base no histórico de compras do cliente, facilitando a tomada de decisões e aumentando o engajamento. Além disso, os chatbots estão disponíveis para fornecer suporte instantâneo aos usuários, responder a perguntas comuns e auxiliar no processo de compra, proporcionando uma experiência mais ágil e eficiente.</p>
+            </div>
+            
         </div>
     </section>
 
