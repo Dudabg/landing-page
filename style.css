@@ -7,6 +7,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+
 }
 
 .product {
@@ -18,7 +27,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-bottom: -15px;
-    background-color: #ffffff;
+    background-color: #ffebeb;
     width: 100%;
     height: 70px;    
     justify-content: space-between; /* Distribui o espaço igualmente entre os elementos */
@@ -249,6 +258,8 @@ body {
 /*inicio do estilo do corpo/banner*/
 
 
+
+
 .banner {
     background-image: url('https://img.freepik.com/vetores-gratis/papel-de-parede-geometrico-abstrato-verde_52683-29623.jpg?w=996&t=st=1713486683~exp=1713487283~hmac=94397bec79c22434363e3738d6405cfb2eb4ace1d86624d657ea55f95830f35f'); /* Substitua pelo caminho correto para a imagem de fundo */
     background-size: cover;
@@ -330,22 +341,65 @@ body {
 
 
 
+
+/*inicio do estilo de sessao sobre a empresa*/
+
+.company-image {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%; /* Define a imagem como redonda */
+  overflow: hidden; /* Garante que a imagem fique dentro do contorno redondo */
+}
+
+.company-image img {
+  width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: auto;
+}
+
+/* Restante dos estilos */
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+
+.our-company h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.our-company p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+
+/*fim do estilo de sessao sobre a empresa*/
+
+
+
+
+
+
+
+
+
 /*inicio do estilo de sessao destaques*/
 
 /* Estilos para a seção de destaques */
 #destaques {
-    background-color: #f9f9f9;
+    background-color: #ffefef;
     padding: 50px 0;
 }
 
-.container2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+.container3 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .texto-destaques {
@@ -378,8 +432,6 @@ body {
 
 .tela_destaques {
    width: 350px;
-   
-    
     margin-left: -1200px;
     margin-top: -30px;
 }
@@ -546,11 +598,6 @@ body {
   }
   
   
-  
-  
-  
-  
-
 
 /*fim do estilo de sessao destaques*/
 
@@ -564,17 +611,17 @@ body {
 
 /*inicio do estilo de sessao servicos*/
 
-/* Estilos para a seção de serviços */
 #servicos {
-    background-color: #fff; /* Cor de fundo branca */
+    background-color: #ffefef; /* Cor de fundo branca */
     padding: 50px 0;
     text-align: center;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
+.container4 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+    
 }
 
 .titulo_servicos {
@@ -604,8 +651,6 @@ body {
     color: #555;
 }
 
-
-
 .card1 {
   width: 300px;
   height: 300px;
@@ -613,11 +658,18 @@ body {
   background: #f5f5f5;
   position: relative;
   padding: 1.8rem;
-  border: 2px solid #c3c6ce;
-  transition: 0.5s ease-out;
+  border: 2px solid transparent; /* Alterado para transparent para evitar o efeito de pulo */
+  transition: border-color 0.5s ease-out; /* Alterado para border-color para suavizar a transição */
   overflow: visible;
   text-align: left;
- }
+  margin-top: 100px;
+  margin-left: -150px;
+}
+
+.card1:hover {
+  border-color: #d30000; /* Alterado para a cor desejada ao passar o mouse */
+}
+
 
  .card-servicos2 {
   width: 300px;
@@ -630,7 +682,14 @@ body {
   transition: 0.5s ease-out;
   overflow: visible;
   text-align: left;
+  margin-top: -350px;
+  margin-left: 500px;
  }
+
+ .card-servicos2:hover {
+  border-color: #d30000; /* Alterado para a cor desejada ao passar o mouse */
+}
+
 
 
  .card-servicos3 {
@@ -644,7 +703,14 @@ body {
   transition: 0.5s ease-out;
   overflow: visible;
   text-align: left;
+  margin-top: 100px;
+  margin-left: 500px;
  }
+
+ .card-servicos3:hover {
+  border-color: #d30000; /* Alterado para a cor desejada ao passar o mouse */
+}
+
 
 
 
@@ -659,7 +725,14 @@ body {
   transition: 0.5s ease-out;
   overflow: visible;
   text-align: left;
+  margin-top: -360px;
+  margin-left: -150px;
  }
+
+ .card-servicos4:hover {
+  border-color: #d30000; /* Alterado para a cor desejada ao passar o mouse */
+}
+
 
 
 
@@ -672,7 +745,7 @@ body {
   place-content: center;
  }
  
- .card-button{
+ .button-card{
   transform: translate(-50%, 125%);
   width: 60%;
   border-radius: 1rem;
@@ -716,9 +789,486 @@ body {
 
 
 
+/*inicio do estilo de sessao planos*/
+
+.container5 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.plan {
+  border-radius: 16px;
+  box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
+  padding: 10px;
+  background-color: #fff;
+  color: #697e91;
+  max-width: 300px;
+}
+
+.plan strong {
+  font-weight: 600;
+  color: #425275;
+}
+
+.plan .inner {
+  align-items: center;
+  padding: 20px;
+  padding-top: 40px;
+  background-color: #ecf0ff;
+  border-radius: 12px;
+  position: relative;
+}
+
+.plan .pricing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #bed6fb;
+  border-radius: 99em 0 0 99em;
+  display: flex;
+  align-items: center;
+  padding: 0.625em 0.75em;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #425475;
+}
+
+.plan .pricing small {
+  color: #707a91;
+  font-size: 0.75em;
+  margin-left: 0.25em;
+}
+
+.plan .title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #425675;
+}
+
+.plan .title + * {
+  margin-top: 0.75rem;
+}
+
+.plan .info + * {
+  margin-top: 1rem;
+}
+
+.plan .features {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan .features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.plan .features li + * {
+  margin-top: 0.75rem;
+}
+
+.plan .features .icon {
+  background-color: #1FCAC5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.plan .features .icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.plan .features + * {
+  margin-top: 1.25rem;
+}
+
+.plan .action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.plan .button {
+  background-color: #6558d3;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 0.625em 0.75em;
+  text-decoration: none;
+}
+
+.plan .button:hover, .plan .button:focus {
+  background-color: #4133B7;
+}
+
+#planos {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.titulo_planos {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.plano {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.plano h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.plano p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/*fim do estilo de sessao planos*/
 
 
 
 
 
 
+
+
+
+
+/*inicio sessao clientes*/
+
+.container6 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+
+#clientes {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.titulo_clientes {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  margin-bottom: 30px;
+}
+
+.slide {
+  flex: 0 0 auto;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.slide img {
+  width: 150px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  border-radius: 50%; /* Define as imagens como redondas */
+}
+
+.slide p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+#antes {
+  cursor: pointer;
+  background-color: #008bf8;
+
+}
+
+#depois {
+  cursor: pointer;
+  background-color: #008bf8;
+}
+
+/*fim do estilo de sessao clientes*/
+
+
+
+/*inicio sessao contato*/
+
+.button-instagram {
+  background: transparent;
+  position: relative;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
+  color: black;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+}
+
+.button-instagram span {
+  margin: 10px;
+}
+
+.button-instagram::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: "";
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
+.button-instagram:hover {
+  color: #fff;
+  border: 1px solid black;
+}
+
+.button-instagram:hover::before {
+  box-shadow: inset 0 0 0 10em black;
+}
+
+
+
+
+.button-whatsapp {
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: #090909;
+  padding: 0.7em 3.3em 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+.button-whatsapp > svg {
+  height: 30px;
+  position: absolute;
+  padding: 0px 5px;
+  margin-top: -4px;
+}
+
+.button-whatsapp:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5,
+             inset -4px -4px 12px #ffffff;
+}
+
+ .button-whatsapp:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button-whatsapp:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #009087;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button-whatsapp:hover {
+  color: #ffffff;
+  border: 1px solid #009087;
+}
+
+.button-whatsapp
+:hover:before {
+  top: -35%;
+  background-color: #009087;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button-whatsapp:hover:after {
+  top: -45%;
+  background-color: #009087;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+
+.card4 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 90px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.gmail {
+  margin-top: -.9em;
+  margin-left: -1.2em;
+  fill: #f14336;
+}
+
+
+
+
+.container7 {
+  max-width: 800px;max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+ 
+}
+
+#informations {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+#informations h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#informations ul {
+  list-style: none;
+  text-align: center;
+}
+
+#informations li {
+  margin-bottom: 20px;
+}
+
+#informations a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#informations a:hover {
+  color: #008CBA;
+}
+/*fim do estilo de sessao contato*/
+
+
+
+/*inicio do estilo de sessao footer*/
+
+.container8 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links ul,
+.politicas ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links ul li,
+.politicas ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.links ul li:last-child,
+.politicas ul li:last-child {
+  margin-right: 0;
+}
+
+.links ul li a,
+.politicas ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.links ul li a:hover,
+.politicas ul li a:hover {
+  color: #ccc;
+}
+
+.copyright p {
+  margin: 0;
+}
+
+
+/*fim do estilo de sessao footer*/
