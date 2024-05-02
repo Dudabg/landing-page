@@ -3,7 +3,7 @@
 
 /*estilo cabeçalho*/
 
-body {
+.body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -306,7 +306,7 @@ body {
     margin-bottom: 30px;
     margin-top: 100px;
     margin-left: -700px;
-    margin-right: 130px;
+    margin-right: 240px;
     color: #ccc;
 }
 
@@ -317,7 +317,7 @@ body {
   margin-bottom: 30px;
   margin-top: -30px;
   margin-left: -700px;
-  margin-right: 100px;
+  margin-right: 200px;
   color: #ccc;
 }
 
@@ -338,12 +338,12 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: -1000px;
-    margin-left: -1000px;
+    margin-top: -2000px;
+    margin-left: -1150px;
 }
 
 .botao_banner:hover {
-    background-color: #e68a00;
+    background-color: #00e63a;
 }
 
 
@@ -362,14 +362,22 @@ body {
 .company-image {
   float: left;
   margin-right: 20px;
-  border-radius: 50%; /* Define a imagem como redonda */
+  border-radius: 100%; /* Define a imagem como redonda */
   overflow: hidden; /* Garante que a imagem fique dentro do contorno redondo */
 }
 
 .company-image img {
   width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
   height: auto;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
 }
+
+
 
 /* Restante dos estilos */
 .container2 {
@@ -379,21 +387,257 @@ body {
   
 }
 
+.company-title {
+  font-size: 36px;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 100px;
+}
+
 .our-company h1 {
   font-size: 36px;
   color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .our-company p {
   font-size: 18px;
   line-height: 1.6;
   color: #666;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 
 /*fim do estilo de sessao sobre a empresa*/
+
+
+
+/*inicio do estilo de sessao servicos*/
+
+.text-title {
+  font-size: 36px;
+  color: #116b01;
+  margin-bottom: 20px;
+}
+
+#servicos {
+  background-color: #ffffff; /* Cor de fundo branca */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.container3 {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+background-color: #ffffff;
+  
+}
+
+.titulo_servicos {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.servico1,
+.servico2,
+.servico3 {
+  margin-bottom: 500px;
+  margin-top: 100px;
+  margin-left: 100px;
+   /* Espaçamento entre os serviços */
+}
+
+.servico1 h3,
+.servico2 h3,
+.servico3 h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #902323;
+}
+
+.servico1 p,
+.servico2 p,
+.servico3 p {
+  font-size: 16px;
+  color: #d11717;
+}
+
+.card1 {
+width: 300px;
+height: 350px;
+border-radius: 20px;
+background: #c6c4c4;
+position: relative;
+padding: 1.8rem;
+border: 2px solid transparent; /* Alterado para transparent para evitar o efeito de pulo */
+transition: border-color 0.5s ease-out; /* Alterado para border-color para suavizar a transição */
+overflow: visible;
+text-align: left;
+margin-top: 100px;
+margin-left: 100px;
+}
+
+.card1:hover {
+border-color: #d30000; /* Alterado para a cor desejada ao passar o mouse */
+}
+
+
+.card-servicos2 {
+width: 300px;
+height: 350px;
+border-radius: 20px;
+background: #c6c4c4;
+position: relative;
+padding: 1.8rem;
+border: 2px solid #c3c6ce;
+transition: 0.5s ease-out;
+overflow: visible;
+text-align: left;
+margin-top: -410px;
+margin-left: 700px;
+}
+
+.card-servicos2:hover {
+border-color: #d30000; /* Alterado para a cor desejada ao passar o mouse */
+}
+
+
+
+.card-servicos3 {
+width: 300px;
+height: 350px;
+border-radius: 20px;
+background: #c6c4c4;
+position: relative;
+padding: 1.8rem;
+border: 2px solid #c3c6ce;
+transition: 0.5s ease-out;
+overflow: visible;
+text-align: left;
+margin-top: 100px;
+margin-left: 700px;
+}
+
+.card-servicos3:hover {
+border-color: #d30000; /* Alterado para a cor desejada ao passar o mouse */
+}
+
+
+
+
+.card-servicos4 {
+width: 300px;
+height: 350px;
+border-radius: 20px;
+background: #c6c4c4;
+position: relative;
+padding: 1.8rem;
+border: 2px solid #c3c6ce;
+transition: 0.5s ease-out;
+overflow: visible;
+text-align: left;
+margin-top: -410px;
+margin-left: 100px;
+}
+
+.card-servicos4:hover {
+border-color: #d30000; /* Alterado para a cor desejada ao passar o mouse */
+}
+
+
+
+.card-details {
+color: black;
+height: 100%;
+gap: .5em;
+display: grid;
+place-content: center;
+}
+
+
+.card-button {
+  padding: 1rem 2rem;
+  font-weight: 800;
+  width: 100%;
+  height: 50px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 156, 13);
+  border-radius: .5rem;
+  border-bottom: 2px solid rgb(98, 226, 43);
+  border-right: 2px solid rgb(43, 226, 73);
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  margin-top: -30px;
+  transition-duration: 1s;
+  transition-property: border-top, 
+     border-left, 
+     border-bottom,
+     border-right,
+     box-shadow;
+ }
+ 
+ .card-button:hover {
+  border-top: 2px solid rgb(61, 226, 43);
+  border-left: 2px solid rgb(82, 216, 29);
+  border-bottom: 2px solid rgb(212, 50, 50);
+  border-right: 2px solid rgb(220, 2, 2);
+  box-shadow: rgb(48, 135, 1) 5px 5px, rgba(88, 238, 46, 0.971) 10px 10px, rgb(31, 136, 2) 15px 15px;
+ }
+
+
+.button-card{
+transform: translate(-50%, 125%);
+width: 60%;
+border-radius: 1rem;
+border: none;
+background-color: #008bf8;
+color: #fff;
+font-size: 1rem;
+padding: .5rem 1rem;
+position: absolute;
+left: 50%;
+bottom: 0;
+opacity: 0;
+transition: 0.3s ease-out;
+}
+
+.text-body {
+color:#333333
+}
+
+/*Text*/
+.text-title {
+font-size: 1.5em;
+font-weight: bold;
+}
+
+/*Hover*/
+.card:hover {
+border-color: #008bf8;
+box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+transform: translate(-50%, 50%);
+opacity: 1;
+}
+
+/*fim do estilo de sessao servicos*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -405,214 +649,62 @@ body {
 
 /*inicio do estilo de sessao destaques*/
 
-/* Estilos para a seção de destaques */
-#destaques {
-    background-color: #ffefef;
-    padding: 50px 0;
+
+.container4 {
+  max-width: 1200px; /* Largura máxima do container */
+  margin: 0 auto; /* Centralizar o conteúdo */
+  padding: 0 20px; /* Espaçamento interno */
+  text-align: center; /* Centralizar o conteúdo */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #f8f8f8;
+
+}
+.destaques-section {
+  background-color: #f8f8f8; /* Cor de fundo da seção */
+  padding: 50px 0; /* Espaçamento interno da seção */
+  text-align: center; /* Centralizar o conteúdo */
+  margin-top: 70px;
+  margin-bottom: 80px;
+  background-color: #bdbdbd;
+  
 }
 
-.container3 {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+/* Estilo para o título dos destaques */
+.destaques-title {
+  font-size: 32px; /* Tamanho da fonte */
+  color: #000000; /* Cor do texto */
+  margin-bottom: 30px; /* Espaçamento inferior */
 }
 
-.texto-destaques {
-
-    padding-right: 20px;
-    margin-left: 600px;
-    margin-top: -30px;
+/* Estilo para os destaques individuais */
+.destaque-item {
+  width: 250px; /* Largura do destaque */
+  display: inline-block; /* Para que os destaques fiquem em linha */
+  margin: 0 20px; /* Espaçamento entre os destaques */
 }
 
-.titulo_destaques {
-    font-size: 32px;
-    color: #333;
-    margin-bottom: 20px;
+/* Estilo para a imagem dentro do destaque */
+.destaque-item img {
+  width: 100%; /* A imagem ocupa toda a largura do destaque */
+  border-radius: 8px; /* Borda arredondada */
 }
 
-.texto_destaques1,
-.texto_destaques2,
-.texto_destaques3 {
-    font-size: 18px;
-    line-height: 1.5;
-    color: #666;
-    margin-bottom: 15px;
+/* Estilo para o título do destaque */
+.destaque-item h3 {
+  font-size: 20px; /* Tamanho da fonte */
+  color: #000000; /* Cor do texto */
+  margin-top: 10px; /* Espaçamento superior */
 }
 
-.texto_destaques2 strong,
-.texto_destaques3 strong {
-    color: #009688;
+/* Estilo para a descrição do destaque */
+.destaque-item p {
+  font-size: 16px; /* Tamanho da fonte */
+  color: #111111; /* Cor do texto */
+  margin-top: 10px; /* Espaçamento superior */
 }
 
 
-.tela_destaques {
-   width: 350px;
-    margin-left: -1200px;
-    margin-top: -30px;
-}
-
-.card {
-    width: 300px;
-    height: 200px;
-    background-color: #00990f;
-    background-image: linear-gradient(43deg, #00db0f 0%, #7ad854 46%, #159502 100%);
-    border-radius: 8px;
-    color: white;
-    overflow: hidden;
-    position: relative;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-    cursor: pointer;
-  }
-  
-  .card-content {
-    padding: 20px;
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-  }
-  
-  .card-content .card-title {
-    font-size: 24px;
-    font-weight: 700;
-    color: inherit;
-    text-transform: uppercase;
-  }
-  
-  .card-content .card-para {
-    color: inherit;
-    opacity: 0.8;
-    font-size: 14px;
-  }
-  
-  .card:hover {
-    transform: rotateY(10deg) rotateX(10deg) scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
-    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-    z-index: 1;
-  }
-  
-  .card:hover:before {
-    transform: translateX(-100%);
-  }
-  
-  .card:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
-    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-    z-index: 1;
-  }
-  
-  .card:hover:after {
-    transform: translateX(100%);
-  }
-
-  
-
-  .card2 {
-    width: 300px;
-    height: 200px;
-    background-color: #0ac000;
-    background-image: linear-gradient(43deg, #39f543 0%, #00af23 46%, #00fc54 100%);
-    border-radius: 8px;
-    color: white;
-    overflow: hidden;
-    position: relative;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-    cursor: pointer;
-    margin-left: 300px;
-  }
-  
-  .card-content2 {
-    padding: 20px;
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-  }
-  
-  .card-content2 .card-title2 {
-    font-size: 24px;
-    font-weight: 700;
-    color: inherit;
-    text-transform: uppercase;
-  }
-  
-  .card-content2 .card-para2 {
-    color: inherit;
-    opacity: 0.8;
-    font-size: 14px;
-  }
-  
-  .card2:hover {
-    transform: rotateY(10deg) rotateX(10deg) scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card2:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
-    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-    z-index: 1;
-  }
-  
-  .card2:hover:before {
-    transform: translateX(-100%);
-  }
-  
-  .card2:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
-    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-    z-index: 1;
-  }
-  
-  .card2:hover:after {
-    transform: translateX(100%);
-  }
-  
-  
 
 /*fim do estilo de sessao destaques*/
 
@@ -624,187 +716,67 @@ body {
 
 
 
-/*inicio do estilo de sessao servicos*/
-
-#servicos {
-    background-color: #ffefef; /* Cor de fundo branca */
-    padding: 50px 0;
-    text-align: center;
-}
-
-.container4 {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-    
-}
-
-.titulo_servicos {
-    font-size: 36px;
-    margin-bottom: 30px;
-    color: #333;
-}
-
-.servico1,
-.servico2,
-.servico3 {
-    margin-bottom: 40px; /* Espaçamento entre os serviços */
-}
-
-.servico1 h3,
-.servico2 h3,
-.servico3 h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.servico1 p,
-.servico2 p,
-.servico3 p {
-    font-size: 16px;
-    color: #555;
-}
-
-.card1 {
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
-  background: #f5f5f5;
-  position: relative;
-  padding: 1.8rem;
-  border: 2px solid transparent; /* Alterado para transparent para evitar o efeito de pulo */
-  transition: border-color 0.5s ease-out; /* Alterado para border-color para suavizar a transição */
-  overflow: visible;
-  text-align: left;
-  margin-top: 100px;
-  margin-left: -150px;
-}
-
-.card1:hover {
-  border-color: #d30000; /* Alterado para a cor desejada ao passar o mouse */
-}
-
-
- .card-servicos2 {
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
-  background: #f5f5f5;
-  position: relative;
-  padding: 1.8rem;
-  border: 2px solid #c3c6ce;
-  transition: 0.5s ease-out;
-  overflow: visible;
-  text-align: left;
-  margin-top: -350px;
-  margin-left: 500px;
- }
-
- .card-servicos2:hover {
-  border-color: #d30000; /* Alterado para a cor desejada ao passar o mouse */
-}
-
-
-
- .card-servicos3 {
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
-  background: #f5f5f5;
-  position: relative;
-  padding: 1.8rem;
-  border: 2px solid #c3c6ce;
-  transition: 0.5s ease-out;
-  overflow: visible;
-  text-align: left;
-  margin-top: 100px;
-  margin-left: 500px;
- }
-
- .card-servicos3:hover {
-  border-color: #d30000; /* Alterado para a cor desejada ao passar o mouse */
-}
-
-
-
-
- .card-servicos4 {
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
-  background: #f5f5f5;
-  position: relative;
-  padding: 1.8rem;
-  border: 2px solid #c3c6ce;
-  transition: 0.5s ease-out;
-  overflow: visible;
-  text-align: left;
-  margin-top: -360px;
-  margin-left: -150px;
- }
-
- .card-servicos4:hover {
-  border-color: #d30000; /* Alterado para a cor desejada ao passar o mouse */
-}
-
-
-
-
- 
- .card-details {
-  color: black;
-  height: 100%;
-  gap: .5em;
-  display: grid;
-  place-content: center;
- }
- 
- .button-card{
-  transform: translate(-50%, 125%);
-  width: 60%;
-  border-radius: 1rem;
-  border: none;
-  background-color: #008bf8;
-  color: #fff;
-  font-size: 1rem;
-  padding: .5rem 1rem;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  opacity: 0;
-  transition: 0.3s ease-out;
- }
- 
- .text-body {
-  color: rgb(134, 134, 134);
- }
- 
- /*Text*/
- .text-title {
-  font-size: 1.5em;
-  font-weight: bold;
- }
- 
- /*Hover*/
- .card:hover {
-  border-color: #008bf8;
-  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
- }
- 
- .card:hover .card-button {
-  transform: translate(-50%, 50%);
-  opacity: 1;
- }
-
-/*fim do estilo de sessao servicos*/
-
-
-
-
 
 
 /*inicio do estilo de sessao planos*/
+
+.plano1 {
+
+
+  align-items: center;
+ 
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.plano2 {
+  
+  
+  align-items: center;
+  
+  margin-left: 600px;
+  margin-top: -280px;
+}
+
+.plano3 {
+  
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.plano4 {
+  
+  justify-content: center;
+  align-items: center;
+ margin-left: 600px;
+  margin-top: -280px; 
+}
+
+.plano5 {
+
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px; 
+  margin-top: 40px;
+}
+
+
+.plano6 { 
+  
+  justify-content: center;
+  align-items: center;
+  margin-left: 600px;
+  margin-top: -280px;
+}
+
+.plano7 {
+  
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 40px;
+}
 
 .container5 {
   max-width: 1200px;
@@ -820,6 +792,8 @@ body {
   color: #697e91;
   max-width: 300px;
 }
+
+
 
 .plan strong {
   font-weight: 600;
@@ -1023,13 +997,38 @@ body {
 
 #antes {
   cursor: pointer;
-  background-color: #008bf8;
+  background-color: #189105;
+  margin-left: 500px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
 
 }
 
 #depois {
   cursor: pointer;
-  background-color: #008bf8;
+  background-color: #189105;
+  margin-left: 700px;
+  margin-top: -34px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
 }
 
 /*fim do estilo de sessao clientes*/
@@ -1042,7 +1041,7 @@ body {
   background: transparent;
   position: relative;
   padding: 5px 15px;
-  display: flex;
+  margin-left: 100px;
   align-items: center;
   font-size: 17px;
   font-weight: 600;
@@ -1244,12 +1243,15 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 20px 0;
+  
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  justify-self: center;
+
 }
 
 .links ul,
@@ -1257,6 +1259,7 @@ footer {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  justify-content: center;
 }
 
 .links ul li,
