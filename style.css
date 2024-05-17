@@ -262,14 +262,23 @@
 /*inicio do estilo do corpo/banner*/
 
 .banner {
-    background-image: url('https://img.freepik.com/vetores-gratis/papel-de-parede-geometrico-abstrato-verde_52683-29623.jpg?t=st=1714468054~exp=1714471654~hmac=46a274c0efdce9dbd2d297a372d3e99bb8a9d83493d86c400fb41e7d753c2279&w=996'); /* Substitua pelo caminho correto para a imagem de fundo */
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;
-    text-align: center;
-    padding: 100px 0;
-    margin-top: -15px;
+  background-image: url('imagens/banner1.png'); /* Substitua pelo caminho correto para a imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  padding: 0 10px;
 }
+
+    
+
+    
+
 
 .titulo_banner {
     font-size: 70px;
@@ -321,13 +330,13 @@
   color: #ccc;
 }
 
-.celular_modelo {
+/*.celular_modelo {
     max-width: 100%;
     height: auto;
     margin-bottom: 30px;
     margin-top: -350px;
     margin-left: 700px;
-}
+}*/
 
 .botao_banner {
     background-color: #ff1e1e;
@@ -392,6 +401,8 @@
   font-size: 24px;
   color: #333;
   margin-bottom: 100px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .our-company h1 {
@@ -405,6 +416,152 @@
   line-height: 1.6;
   color: #666;
   margin-bottom: 40px;
+}
+
+.card-title-sobre {
+  color: #262626;
+  font-size: 1.5em;
+  line-height: normal;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.small-desc {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #452c2c;
+}
+
+.small-desc {
+  font-size: 1em;
+}
+
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background: linear-gradient(135deg, #6293c8, #384c6c);
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+
+.card-sobre1 {
+  display: block;
+  position: relative;
+  max-width: 300px;
+  max-height: 320px;
+  border-radius: 10px;
+  padding: 2em 1.2em;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #51e75b, #006c12); /* Esta linha define a cor de fundo usando um gradiente linear */
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+
+.card-sobre2 {
+  display: block;
+  position: relative;
+  max-width: 300px;
+  max-height: 320px;
+  background-color: #20261f;
+  border-radius: 10px;
+  padding: 2em 1.2em;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 600px;
+  margin-top: -400px;
+}
+
+.card-sobre3 {
+  display: block;
+  position: relative;
+  max-width: 300px;
+  max-height: 320px;
+  background-color: #f2f8f9;
+  border-radius: 10px;
+  padding: 2em 1.2em;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1000px;
+  margin-top: -400px;
+}
+
+.card-sobre:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: linear-gradient(135deg, #364a60, #384c6c);
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.35s ease-out;
+}
+
+.card-sobre:hover:before {
+  transform: scale(28);
+}
+
+.card-sobre:hover .small-desc {
+  transition: all 0.5s ease-out;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card-sobre:hover .card-title {
+  transition: all 0.5s ease-out;
+  color: #ffffff;
+}
+
+
+.video-container {
+  
+  width: 100px; /* Largura do vídeo */
+  height: 200px; /* Altura do vídeo */
+  bottom: 40px; /* Distância do vídeo ao fundo da tela */
+  right: 20px; /* Distância do vídeo à borda direita da tela */
+  opacity: 0.8; /* Opacidade do vídeo */
+  z-index: 500; /* Z-index para garantir que o vídeo esteja acima de outros elementos */
+  margin-top: -800px;
+}
+
+.video-container2 {
+  
+  width: 400px; /* Largura do vídeo */
+  height: 400px; /* Altura do vídeo */
+  bottom: 40px; /* Distância do vídeo ao fundo da tela */
+  right: 20px; /* Distância do vídeo à borda direita da tela */
+  opacity: 0.8; /* Opacidade do vídeo */
+  z-index: 1000; /* Z-index para garantir que o vídeo esteja acima de outros elementos */
+  margin-top: -800px;
 }
 
 
