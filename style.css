@@ -1141,39 +1141,112 @@ body {
 
 
 
-
-
-
-
-#informations {
+/* inicio do estilo de sessao informations */
+/* Estilização geral */
+.informacoes {
   background-color: #f5f5f5;
-  padding: 60px 0;
-  text-align: center;
-}
-
-.container7 {
-  max-width: 1600px;
-  height: 500px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.container7 h2 {
-  font-size: 36px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
   color: #333;
-  margin-bottom: 40px;
+}
+.informacoes-titulo  {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 70px;
+  position: relative;
+  display: inline-block;
+  font-family: 'poppins', sans-serif;
+  margin-top: -100px;
+  margin-left: 350px;
+
 }
 
-/* Estilo Geral */
-/* Estilo Geral */
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f9;
+.informacoes-titulo::before {
+  content: '';
+  width: 400px;
+  height: 10px;
+  background: linear-gradient(90deg, #006c12, #af0000);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  font-family: 'poppins', sans-serif;
 }
 
-/* Estilo da Seção Informations */
+/* Seções de informações */
+.informacoes-app {
+  font-family: 'poppins', sans-serif;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 100px; 
+  margin-left: 350px;
+}
+
+.informacoes-redes {
+  font-family: 'poppins', sans-serif;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 100px; 
+  margin-left: 350px;
+}
+
+.informacoes-whatsapp{
+  font-family: 'poppins', sans-serif;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 100px; 
+  margin-left: 350px;
+}
+
+.informacoes-play{
+  font-family: 'poppins', sans-serif;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 100px; 
+  margin-left: 350px;
+}
+
+/* Ícones de redes sociais */
+.face, .insta, .tik, .link {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.play, .wpp{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+/* Layout Flex para melhor organização */
+.informacoes-whatsapp, .informacoes-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Espaçamento para textos e ícones */
+.informacoes-whatsapp p, .informacoes-play p {
+  margin-right: 10px;
+}
+
+/* Endereços e CNPJ */
+.endereco1, .endereco2, .cnpj {
+  text-align: center;
+  margin: 5px 0;
+}
+
+/*fim  da Seção Informations */
 
 
 
