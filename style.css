@@ -1142,23 +1142,23 @@ body {
 
 
 /* inicio do estilo de sessao informations */
-/* Estilização geral */
 .informacoes {
   background-color: #f5f5f5;
   padding: 20px;
   font-family: Arial, sans-serif;
   color: #333;
 }
+
 .informacoes-titulo  {
   font-size: 48px;
   color: #333;
   margin-bottom: 70px;
   position: relative;
   display: inline-block;
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: -100px;
-  margin-left: 350px;
-
+  margin-left: 340px;
+  margin-right: 270px;
 }
 
 .informacoes-titulo::before {
@@ -1171,62 +1171,120 @@ body {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 2px;
-  font-family: 'poppins', sans-serif;
 }
 
 /* Seções de informações */
+.informacoes-secoes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.informacoes-app, .informacoes-redes, .informacoes-whatsapp {
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+  padding: 40px 50px; /* Ajusta o padding para dar mais espaço ao texto */
+  border-radius: 20px; /* Aumenta a arredondamento das bordas */
+  display: inline-block; /* Faz com que o tamanho seja ajustado ao texto */
+  margin-right: 20px;/* Centraliza o texto */
+}
+
 .informacoes-app {
-  font-family: 'poppins', sans-serif;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 100px; 
-  margin-left: 350px;
+  border: 5px solid #3d3d3d;
+  height: 50px;
+  width: 300px;
 }
 
-.informacoes-redes {
-  font-family: 'poppins', sans-serif;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 100px; 
-  margin-left: 350px;
+.informacoes-redes, .informacoes-whatsapp {
+  border: 5px solid #3d3d3d;
+  height: 50px;
+  width: 300px;
 }
 
-.informacoes-whatsapp{
-  font-family: 'poppins', sans-serif;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 100px; 
-  margin-left: 350px;
+
+.app-icon {
+  /* Aumenta a arredondamento das bordas */
+  /* Faz com que o tamanho seja ajustado ao texto */
+  width: 200px; /* Define a largura desejada */
+  height: 50px; /* Mantém a proporção original da imagem */
+  margin-top: 5px;
+  margin-left: -450px;
 }
 
-.informacoes-play{
-  font-family: 'poppins', sans-serif;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 100px; 
-  margin-left: 350px;
+.google-icon{
+  /* Aumenta a arredondamento das bordas */
+  
+  width: 200px; /* Define a largura desejada */
+  height: 50px; /* Mantém a proporção original da imagem */
+  margin-top: 5px;
+  margin-left: -100px;
 }
-
 /* Ícones de redes sociais */
-.face, .insta, .tik, .link {
+.insta-icon {
+  width: 50px; /* Define a largura desejada */
+  height: 50px; /* Mantém a proporção original da imagem */
+  margin-top: 5px;
+
+  margin-left: 200px;
+}
+
+.face-icon {
+  width: 50px; /* Define a largura desejada */
+  height: 50px; /* Mantém a proporção original da imagem */
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.link-icon {
+  width: 50px; /* Define a largura desejada */
+  height: 50px; /* Mantém a proporção original da imagem */
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.tik-icon {
+  width: 50px; /* Define a largura desejada */
+  height: 50px; /* Mantém a proporção original da imagem */
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.play, .wpp {
   width: 30px;
   height: 30px;
   margin: 5px;
 }
 
-.play, .wpp{
-  width: 30px;
-  height: 30px;
+/* Estilo para ícones do Google Play e App Store */
+.googleplay {
+  width: 200px; /* Definindo um tamanho pequeno */
+  height: 50px; /* Definindo um tamanho pequeno */
   margin: 5px;
+  border: 2px solid #333; /* Adicionando uma borda ao redor dos ícones */
+  border-radius: 5px; /* Tornando as bordas levemente arredondadas */
+  margin-left: -500px;
+  
 }
+
+.appstore {
+  width: 200px; /* Definindo um tamanho pequeno */
+  height: 50px; /* Definindo um tamanho pequeno */
+  margin: 5px;
+  border: 2px solid #333; /* Adicionando uma borda ao redor dos ícones */
+  border-radius: 5px; /* Tornando as bordas levemente arredondadas */
+  margin-left: -5px;
+ 
+  
+}
+
+.googleplay img, .appstore img {
+  width: 100%; /* Ajustando a imagem para caber dentro do contêiner */
+  height: 100%;
+  object-fit: contain; /* Mantendo a proporção da imagem */
+}
+
 
 /* Layout Flex para melhor organização */
 .informacoes-whatsapp, .informacoes-play {
@@ -1244,6 +1302,33 @@ body {
 .endereco1, .endereco2, .cnpj {
   text-align: center;
   margin: 5px 0;
+}
+
+.endereco1 {
+  margin-bottom: 10px;
+  margin-top: -600px;
+  margin-left: -50px;
+}
+
+.endereco2 {
+  margin-bottom: 10px;
+  margin-top: -550px;
+  margin-left: 100px;
+}
+
+ .cnpj{
+  margin-bottom: 10px;
+  margin-top: -450px;
+  margin-left: -100px;
+ }
+
+/*.shape {
+  
+  left: 50%;
+  bottom: 20px;
+  margin-top: -800px;
+  
+  transform: translateX(-50%);
 }
 
 /*fim  da Seção Informations */
