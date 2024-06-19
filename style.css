@@ -1180,6 +1180,9 @@ body {
   margin-bottom: 20px;
   margin-left: 200px;
   margin-right: 200px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
 }
 
 .informacoes-app, .informacoes-redes, .informacoes-whatsapp {
@@ -1189,18 +1192,43 @@ body {
   border-radius: 20px; /* Aumenta a arredondamento das bordas */
   display: inline-block; /* Faz com que o tamanho seja ajustado ao texto */
   margin-right: 20px;/* Centraliza o texto */
+  font-family: 'poppins', sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  
 }
 
 .informacoes-app {
   border: 5px solid #3d3d3d;
   height: 50px;
   width: 300px;
+  font-family: 'poppins', sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+ line-height: 1px;
 }
-
-.informacoes-redes, .informacoes-whatsapp {
+.informacoes-whatsapp {
   border: 5px solid #3d3d3d;
   height: 50px;
   width: 300px;
+  font-family: 'poppins', sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1px;
+}
+
+
+.informacoes-redes {
+  border: 5px solid #3d3d3d;
+  height: 50px;
+  width: 300px;
+  font-family: 'poppins', sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1px;
 }
 
 
@@ -1210,16 +1238,22 @@ body {
   width: 200px; /* Define a largura desejada */
   height: 50px; /* Mantém a proporção original da imagem */
   margin-top: 5px;
-  margin-left: -450px;
+  margin-left: -50px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
 }
 
 .google-icon{
   /* Aumenta a arredondamento das bordas */
   
   width: 200px; /* Define a largura desejada */
-  height: 50px; /* Mantém a proporção original da imagem */
+  height: 60px; /* Mantém a proporção original da imagem */
   margin-top: 5px;
-  margin-left: -100px;
+  margin-left: 150px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
 }
 /* Ícones de redes sociais */
 .insta-icon {
@@ -1228,6 +1262,9 @@ body {
   margin-top: 5px;
 
   margin-left: 200px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
 }
 
 .face-icon {
@@ -1235,6 +1272,9 @@ body {
   height: 50px; /* Mantém a proporção original da imagem */
   margin-top: 5px;
   margin-left: 50px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
 }
 
 .link-icon {
@@ -1242,6 +1282,9 @@ body {
   height: 50px; /* Mantém a proporção original da imagem */
   margin-top: 5px;
   margin-left: 50px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
 }
 
 .tik-icon {
@@ -1249,12 +1292,18 @@ body {
   height: 50px; /* Mantém a proporção original da imagem */
   margin-top: 5px;
   margin-left: 50px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
 }
 
 .play, .wpp {
   width: 30px;
   height: 30px;
   margin: 5px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
 }
 
 /* Estilo para ícones do Google Play e App Store */
@@ -1264,7 +1313,10 @@ body {
   margin: 5px;
   border: 2px solid #333; /* Adicionando uma borda ao redor dos ícones */
   border-radius: 5px; /* Tornando as bordas levemente arredondadas */
-  margin-left: -500px;
+  margin-left: 900px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
   
 }
 
@@ -1274,7 +1326,10 @@ body {
   margin: 5px;
   border: 2px solid #333; /* Adicionando uma borda ao redor dos ícones */
   border-radius: 5px; /* Tornando as bordas levemente arredondadas */
-  margin-left: -5px;
+  margin-left: -50px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
  
   
 }
@@ -1283,6 +1338,9 @@ body {
   width: 100%; /* Ajustando a imagem para caber dentro do contêiner */
   height: 100%;
   object-fit: contain; /* Mantendo a proporção da imagem */
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
 }
 
 
@@ -1291,35 +1349,58 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
 }
 
 /* Espaçamento para textos e ícones */
 .informacoes-whatsapp p, .informacoes-play p {
   margin-right: 10px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-size: xx-large;
 }
 
 /* Endereços e CNPJ */
 .endereco1, .endereco2, .cnpj {
   text-align: center;
   margin: 5px 0;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
 }
 
 .endereco1 {
   margin-bottom: 10px;
-  margin-top: -600px;
-  margin-left: -50px;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: -150px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
 }
 
 .endereco2 {
   margin-bottom: 10px;
-  margin-top: -550px;
-  margin-left: 100px;
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-bottom: -100px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
+
 }
 
  .cnpj{
   margin-bottom: 10px;
-  margin-top: -450px;
-  margin-left: -100px;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: -100px;
+  font-family: 'poppins', sans-serif;
+  font-size: large;
+  font-weight: bold;
  }
 
 /*.shape {
