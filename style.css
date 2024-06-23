@@ -8,12 +8,10 @@
 
 
 /*estilo cabeçalho*/
-
 .body-site {
     margin: 0 ;
     padding: 0 ;
     font-family: 'poppins', sans-serif;
-
 }
 
 
@@ -277,7 +275,7 @@
     opacity: 1;
   }
 
-  /*fim do estilo do cabeçalho*/
+/*fim do estilo do cabeçalho*/
 
 
 
@@ -291,7 +289,6 @@
 
 
 /*inicio do estilo do corpo/banner*/
-
 .banner {
   background-size: cover;
   background-position: center;
@@ -320,7 +317,6 @@
 .banner.visible {
   opacity: 1;
 }
-
 /*fim do estilo do corpo/banner*/
 
 
@@ -339,7 +335,6 @@
 
 
 /*inicio do estilo de sessao sobre a empresa*/
-
 @keyframes fadeInZoom {
   0% {
     opacity: 0;
@@ -354,20 +349,20 @@
 .card-container2 .card-visao img,
 .card-container2 .card-missao img,
 .card-container2 .card-valores img {
-  opacity: 0; /* Inicialmente escondido */
-  animation: fadeInZoom 4s forwards; /* Animação de 1 segundo */
+  opacity: 0; 
+  animation: fadeInZoom 4s forwards; 
 }
 
 .card-container2 .card-visao img {
-  animation-delay: 0.4s; /* Atraso de 0.2s */
+  animation-delay: 0.4s;  
 }
 
 .card-container2 .card-missao img {
-  animation-delay: 0.6s; /* Atraso de 0.4s */
+  animation-delay: 0.6s; 
 }
 
 .card-container2 .card-valores img {
-  animation-delay: 0.8s; /* Atraso de 0.6s */
+  animation-delay: 0.8s; 
 }
 
 
@@ -441,7 +436,6 @@
   margin-top: -65px;
   margin-left: 100px;
 }
-
 /*fim do estilo de sessao sobre a empresa*/
 
 
@@ -458,9 +452,6 @@
 
 
 /*inicio do estilo de sessao servicos */
-
-/* Configurações gerais */
-
 
 #servicos {
   padding: 60px 20px;
@@ -502,14 +493,14 @@
 
 /* Estilo dos cards */
 .card-servicos {
-  background-color: #dbd9d9;
+  background-color: #eae7e7;
   border-radius: 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   margin: 20px 0;
   padding: 30px;
   position: relative;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.6s, box-shadow 0.6s;
   cursor: pointer;
   font-family: 'poppins', sans-serif;
 }
@@ -610,8 +601,6 @@
 .card-servicos:nth-child(4) {
   animation-delay: 0.12s;
 }
-
-
 /*fim do estilo de sessao servicos*/
 
 
@@ -636,7 +625,6 @@
 
 
 /*inicio do estilo de sessao destaques-depoimento comerciante*/
-
 .depoimentos-comerciante-titulo1 {
   font-size: 30px;
   color: #333;
@@ -662,10 +650,10 @@
 
 
 .destaques-section1 {
-  background-color: #f9f9f9; /* Cor de fundo suave */
-  padding: 20px; /* Espaçamento interno */
-  border-radius: 10px; /* Bordas arredondadas */
-  text-align: center; /* Centralizar o conteúdo */
+  background-color: #f9f9f9; 
+  padding: 20px; 
+  border-radius: 10px; 
+  text-align: center; 
   font-family: 'poppins', sans-serif;
 }
 
@@ -673,21 +661,21 @@
 .depoimento-humberto,
 .depoimento-antonio,
 .depoimento-eustaquio {
-  display: inline-block; /* Elementos em linha */
-  margin: 10px; /* Espaçamento entre os depoimentos */
-  vertical-align: top; /* Alinhamento vertical */
-  text-align: center; /* Centralizar o conteúdo */
+  display: inline-block; 
+  margin: 10px; 
+  vertical-align: top; 
+  text-align: center; 
   font-family: 'poppins', sans-serif;
 }
 
 .depoimento-humberto img,
 .depoimento-antonio img,
 .depoimento-eustaquio img {
-  width: 400px; /* Largura das imagens */
-  height: auto; /* Altura automática para manter a proporção */
-  border-radius: 50%; /* Imagens circulares */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
-  transition: transform 0.3s ease; /* Transição suave para o efeito de hover */
+  width: 400px; 
+  height: auto; 
+  border-radius: 50%; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease; 
   font-family: 'poppins', sans-serif;
   background-color: #ffffff;
 }
@@ -695,13 +683,12 @@
 .depoimento-humberto img:hover,
 .depoimento-antonio img:hover,
 .depoimento-eustaquio img:hover {
-  transform: scale(1.1); /* Aumentar um pouco a imagem ao passar o mouse */
+  transform: scale(1.1); 
   font-family: 'poppins', sans-serif;
   background-color: #d1cfcf;
   border-radius: 100%;
   font-family: 'poppins', sans-serif;
 }
-
 /*fim do estilo de sessao destaques-depoimento comerciante*/
 
 
@@ -714,12 +701,11 @@
 
 
 /*inicio do estilo sessao destaques-depoimento usuario*/
-
 .destaques-section2 {
-  background-color: #f9f9f9; /* Cor de fundo suave */
-  padding: 20px; /* Espaçamento interno */
-  border-radius: 10px; /* Bordas arredondadas */
-  text-align: center; /* Centralizar o conteúdo */
+  background-color: #f9f9f9; 
+  padding: 20px; 
+  border-radius: 10px; 
+  text-align: center; 
 }
 
 .depoimentos-usuario-titulo2 {
@@ -751,10 +737,10 @@
 .depoimento-anny,
 .depoimento-maria,
 .depoimento-solange {
-  display: inline-block; /* Elementos em linha */
-  margin: 10px; /* Espaçamento entre os depoimentos */
-  vertical-align: top; /* Alinhamento vertical */
-  text-align: center; /* Centralizar o conteúdo */
+  display: inline-block; 
+  margin: 10px; 
+  vertical-align: top; 
+  text-align: center; 
   font-family: 'poppins', sans-serif;
  
 }
@@ -762,11 +748,11 @@
 .depoimento-anny img,
 .depoimento-maria img,
 .depoimento-solange img {
-  width: 400px; /* Largura das imagens */
-  height: auto; /* Altura automática para manter a proporção */
-  border-radius: 50%; /* Imagens circulares */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
-  transition: transform 0.3s ease; /* Transição suave para o efeito de hover */
+  width: 400px; 
+  height: auto; 
+  border-radius: 50%; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
   background-color: #fffffffd;
   
   
@@ -775,15 +761,12 @@
 .depoimento-anny img:hover,
 .depoimento-maria img:hover,
 .depoimento-solange img:hover {
-  transform: scale(1.1); /* Aumentar um pouco a imagem ao passar o mouse */
+  transform: scale(1.1); 
   background-color: #d1cfcf;
   border-radius: 100%;
   font-family: 'poppins', sans-serif;
   
 }
-
-
-
 /*fim do estilo sessao destaques-depoimento usuario*/
 
 
@@ -795,8 +778,8 @@
 
 
 
-/* inicio do estilo de sessao planos */
 
+/* inicio do estilo de sessao planos */
 #planos {
   background-color: #f9f9f9;
   padding: 50px 0;
@@ -922,7 +905,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #d83030; /* Vermelho */
+  background-color: #d83030; 
   border-radius: 99em 0 0 99em;
   display: flex;
   align-items: center;
@@ -968,7 +951,7 @@
 }
 
 .plan .button {
-  background-color: #2e7d32; /* Verde escuro */
+  background-color: #2e7d32; 
   border-radius: 6px;
   color: #fff;
   font-weight: 500;
@@ -984,19 +967,22 @@
 
 .plan .button:hover,
 .plan .button:focus {
-  background-color: #1b5e20; /* Verde ainda mais escuro */
+  background-color: #1b5e20; 
   font-family: 'poppins', sans-serif;
 }
 
 .price{
-
   font-weight: 600;
   font-size: 15px;
   font-family: 'poppins', sans-serif;
   
 }
-
 /* fim do estilo de sessao planos */
+
+
+
+
+
 
 
 
@@ -1060,7 +1046,7 @@ body {
 }
 
 .carousel::-webkit-scrollbar {
-  display: none; /* Oculta a barra de rolagem */
+  display: none; 
 }
 
 .slide {
@@ -1130,8 +1116,9 @@ body {
     transform: scale(1);
   }
 }
-
 /*fim do estilo de sessao clientes*/
+
+
 
 
 
@@ -1188,10 +1175,10 @@ body {
 .informacoes-app, .informacoes-redes, .informacoes-whatsapp {
   font-family: 'Poppins', sans-serif;
   margin: 10px;
-  padding: 40px 50px; /* Ajusta o padding para dar mais espaço ao texto */
-  border-radius: 20px; /* Aumenta a arredondamento das bordas */
-  display: inline-block; /* Faz com que o tamanho seja ajustado ao texto */
-  margin-right: 20px;/* Centraliza o texto */
+  padding: 40px 50px; 
+  border-radius: 20px; 
+  display: inline-block; 
+  margin-right: 20px;
   font-family: 'poppins', sans-serif;
   font-size: x-large;
   font-weight: bold;
@@ -1233,10 +1220,8 @@ body {
 
 
 .app-icon {
-  /* Aumenta a arredondamento das bordas */
-  /* Faz com que o tamanho seja ajustado ao texto */
-  width: 200px; /* Define a largura desejada */
-  height: 50px; /* Mantém a proporção original da imagem */
+  width: 200px; 
+  height: 50px; 
   margin-top: 5px;
   margin-left: -50px;
   font-family: 'poppins', sans-serif;
@@ -1245,31 +1230,30 @@ body {
 }
 
 .google-icon{
-  /* Aumenta a arredondamento das bordas */
-  
-  width: 200px; /* Define a largura desejada */
-  height: 60px; /* Mantém a proporção original da imagem */
+  width: 200px; 
+  height: 60px; 
   margin-top: 5px;
   margin-left: 150px;
   font-family: 'poppins', sans-serif;
   font-size: large;
   font-weight: bold;
 }
-/* Ícones de redes sociais */
-.insta-icon {
-  width: 50px; /* Define a largura desejada */
-  height: 50px; /* Mantém a proporção original da imagem */
-  margin-top: 5px;
 
+
+.insta-icon {
+  width: 50px; 
+  height: 50px; 
+  margin-top: 5px;
   margin-left: 200px;
   font-family: 'poppins', sans-serif;
   font-size: large;
   font-weight: bold;
 }
 
+
 .face-icon {
-  width: 50px; /* Define a largura desejada */
-  height: 50px; /* Mantém a proporção original da imagem */
+  width: 50px; 
+  height: 50px; 
   margin-top: 5px;
   margin-left: 50px;
   font-family: 'poppins', sans-serif;
@@ -1278,8 +1262,8 @@ body {
 }
 
 .link-icon {
-  width: 50px; /* Define a largura desejada */
-  height: 50px; /* Mantém a proporção original da imagem */
+  width: 50px;
+  height: 50px; 
   margin-top: 5px;
   margin-left: 50px;
   font-family: 'poppins', sans-serif;
@@ -1288,8 +1272,8 @@ body {
 }
 
 .tik-icon {
-  width: 50px; /* Define a largura desejada */
-  height: 50px; /* Mantém a proporção original da imagem */
+  width: 50px; 
+  height: 50px; 
   margin-top: 5px;
   margin-left: 50px;
   font-family: 'poppins', sans-serif;
@@ -1306,13 +1290,13 @@ body {
   font-weight: bold;
 }
 
-/* Estilo para ícones do Google Play e App Store */
+
 .googleplay {
-  width: 200px; /* Definindo um tamanho pequeno */
-  height: 50px; /* Definindo um tamanho pequeno */
+  width: 200px; 
+  height: 50px; 
   margin: 5px;
-  border: 2px solid #333; /* Adicionando uma borda ao redor dos ícones */
-  border-radius: 5px; /* Tornando as bordas levemente arredondadas */
+  border: 2px solid #333; 
+  border-radius: 5px; 
   margin-left: 900px;
   font-family: 'poppins', sans-serif;
   font-size: large;
@@ -1321,8 +1305,8 @@ body {
 }
 
 .appstore {
-  width: 200px; /* Definindo um tamanho pequeno */
-  height: 50px; /* Definindo um tamanho pequeno */
+  width: 200px; 
+  height: 50px; 
   margin: 5px;
   border: 2px solid #333; /* Adicionando uma borda ao redor dos ícones */
   border-radius: 5px; /* Tornando as bordas levemente arredondadas */
@@ -1331,20 +1315,20 @@ body {
   font-size: large;
   font-weight: bold;
  
-  
 }
 
+
 .googleplay img, .appstore img {
-  width: 100%; /* Ajustando a imagem para caber dentro do contêiner */
+  width: 100%; 
   height: 100%;
-  object-fit: contain; /* Mantendo a proporção da imagem */
+  object-fit: contain; 
   font-family: 'poppins', sans-serif;
   font-size: large;
   font-weight: bold;
 }
 
 
-/* Layout Flex para melhor organização */
+
 .informacoes-whatsapp, .informacoes-play {
   display: flex;
   justify-content: center;
@@ -1354,7 +1338,7 @@ body {
   font-weight: bold;
 }
 
-/* Espaçamento para textos e ícones */
+
 .informacoes-whatsapp p, .informacoes-play p {
   margin-right: 10px;
   font-family: 'poppins', sans-serif;
@@ -1363,7 +1347,7 @@ body {
   font-size: xx-large;
 }
 
-/* Endereços e CNPJ */
+
 .endereco1, .endereco2, .cnpj {
   text-align: center;
   margin: 5px 0;
@@ -1403,15 +1387,14 @@ body {
   font-weight: bold;
  }
 
-/*.shape {
+.shape {
   
   left: 50%;
   bottom: 20px;
-  margin-top: -800px;
-  
+  margin-top: -600px;
+  margin-left: 80px;
   transform: translateX(-50%);
 }
-
 /*fim  da Seção Informations */
 
 
@@ -1419,45 +1402,10 @@ body {
 
 
 
-.rodape:hover {
-  transform: scale(1);
-  box-shadow: 0 20px 40px rgb(255, 255, 255);
-}
-
-.rodape img {
-  width: 100%;
-  max-width: 1200px;
-  height: auto;
-
-  border-radius: 20px;
-}
-
-/* Animações e Transições */
-@keyframes fadeInUp {
-  from {
-      opacity: 0;
-      transform: translateY(30px);
-  }
-  to {
-      opacity: 1;
-      transform: translateY(0);
-  }
-}
-
-/* Responsivo */
-@media (max-width: 768px) {
-  .container7 {
-      padding: 0 10px;
-  }
-
-  .rodape img {
-      max-width: 100%;
-  }
-}
 
 
 
-/* Estilo do Footer *//* Estilo do Footer */
+
 /* Estilo do Footer */
 .container8 {
   max-width: 2000px;
@@ -1475,7 +1423,9 @@ footer {
   width: 100%;
   max-width: 2000px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 200px;
+  margin-left: -160px;
+  margin-top: -23px;
   
  
 }
