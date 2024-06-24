@@ -40,3 +40,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     updateSlides(); // Inicialize o primeiro slide
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Seleciona a imagem do menu e a lista
+    const menuIcon = document.querySelector(".navigation-celular .menu");
+    const navList = document.querySelector(".navigation-celular ul");
+
+    // Adiciona um evento de clique na imagem do menu
+    menuIcon.addEventListener("click", function() {
+        // Alterna a classe 'show' no <ul>
+        navList.classList.toggle("show");
+    });
+});
