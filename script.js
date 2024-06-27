@@ -11,34 +11,33 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 5000); // Alterna a cada 5 segundos
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-
-    const slides = document.querySelectorAll('.carousel > div');
-    const nextButton = document.getElementById('depois');
+document.addEventListener('DOMContentLoaded', function () {
+    const slides = document.querySelectorAll('.slide');
     const prevButton = document.getElementById('antes');
-    let currentSlide = 0;
+    const nextButton = document.getElementById('depois');
+    let currentIndex = 0;
 
-    const updateSlides = () => {
-        slides.forEach((slide, index) => {
-            if (index === currentSlide) {
-                slide.classList.add('slide-active');
-            } else {
-                slide.classList.remove('slide-active');
-            }
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.style.display = i === index ? 'block' : 'none';
         });
-    };
+    }
 
-    nextButton.addEventListener('click', () => {
-        currentSlide = (currentSlide + 1) % slides.length;
-        updateSlides();
-    });
+    function showNextSlide() {
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
+    }
 
-    prevButton.addEventListener('click', () => {
-        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-        updateSlides();
-    });
+    function showPrevSlide() {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        showSlide(currentIndex);
+    }
 
-    updateSlides(); // Inicialize o primeiro slide
+    prevButton.addEventListener('click', showPrevSlide);
+    nextButton.addEventListener('click', showNextSlide);
+
+    // Mostrar o primeiro slide inicialmente
+    showSlide(currentIndex);
 });
 
 document.addEventListener("DOMContentLoaded", function() {
